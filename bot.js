@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+var commandslist = JSON.parse(fs.readFilesSync('Leo-2.0/commands.txt', 'utf8'));
+
 client.on('ready', () => {
     console.log('I am ready!');
 });
@@ -37,6 +39,8 @@ client.on('message', message => {
     if (message.content === 'Thank you Leo 2.0') {
     	message.reply('You are welcome ^v^');
   	}
+     if (message.content === 'Hide and seek rules') {
+    	message.reply('commandslist');
     
 });
 
