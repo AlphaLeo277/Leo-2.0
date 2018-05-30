@@ -37,7 +37,7 @@ client.on('message', message => {
     if (message.content === 'Thank you Leo 2.0') {
     	message.reply('You are welcome ^v^');
   	}
-     if (message.content === 'Succ) {
+     if (message.content === 'Succ') {
     	message.reply('( ͡° ͜ʖ ͡°)');
   	}
      
