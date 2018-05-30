@@ -33,6 +33,9 @@ client.on('message', message => {
     if (message.content === 'Oops') {
     	message.reply('XD you made a mistake');
   	}
+    if (message.content === 'Thank you Leo 2.0') {
+    	message.reply('You are welcome ^v^');
+  	}
     
 });
 
