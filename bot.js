@@ -9,10 +9,8 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
   	}
-client.on('message.content === 'alex') {
-          message.reply('is Jesus');
-}
-          
+if(message.content == 'hello') {
+    message.channel.sendmessage('Hi, there!');
 });
 
 // THIS  MUST  BE  THIS  WAY
