@@ -11,7 +11,7 @@ client.on('message', message => {
   	}
 client.on('message.content === 'alex') {
           message.reply('is Jesus');
-    }
+}
           
 });
 
