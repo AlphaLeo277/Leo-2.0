@@ -6,11 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === 'Ping') {
+    	message.reply('Pong!');
   	}
-    if (message.content === 'alex') {
-    	message.reply('is Jesus');
+    if (message.content === 'Alex') {
+    	message.reply('Alex is Jesus');
+  	}
+    if (message.content === 'Leo') {
+    	message.reply('Leo is your Senpai');
   	}
 });
 
