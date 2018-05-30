@@ -28,7 +28,7 @@ client.on('message', message => {
     	message.reply('oof');
   	}
     if (message.content === 'Boosie') {
-    	message.reply('No its Agent 8');
+    	message.reply('No, its Agent 8');
   	}
     if (message.content === 'Hello') {
     	message.reply('Hello your Highness!');
@@ -42,7 +42,9 @@ client.on('message', message => {
      if (message.content === 'Succ') {
     	message.reply('( ͡° ͜ʖ ͡°)');
   	}
-     
+      if (message.content === 'K') {
+    	message.reply('Its not "K" its "Ok"');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
