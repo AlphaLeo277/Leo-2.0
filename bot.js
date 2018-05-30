@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const prefix = '~';
+const prefix = '/';
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -12,7 +12,7 @@ client.on('message', message => {
     let message.content = message.content.toUpperCase();
     let sender = message.author;
     
-    if (message.content === prefix + 'PING') {
+    if (message.content === prefix + 'ping') {
         message.reply('Pong');
     }
     
