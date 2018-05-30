@@ -9,7 +9,7 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
   	}
-  if(message.content == 'alex') {
+  if(message.content === 'alex') {
     message.channel.sendmessage('is Jesus');
   }
 });
