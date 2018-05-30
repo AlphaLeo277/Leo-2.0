@@ -21,6 +21,12 @@ client.on('message', message => {
     if (message.content === 'Nights') {
     	message.reply('Good night :)');
   	}
+    if (message.content === 'Oof') {
+    	message.reply('oof');
+  	}
+    if (message.content === 'Boosie') {
+    	message.reply('No its Leo 2.0');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
