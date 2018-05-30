@@ -10,7 +10,7 @@ client.on('message', message => {
     	message.reply('pong');
   	}
     if (message.content === 'alex') {
-    	message.channel.sendmessage('is Jesus');
+    	message.channel.reply('is Jesus');
   	}
 });
 
