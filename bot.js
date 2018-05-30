@@ -37,9 +37,7 @@ client.on('message', message => {
     if (message.content === 'Thank you Leo 2.0') {
     	message.reply('You are welcome ^v^');
   	}
-     if (message.content === 'Hide and seek rules') {
-    	message.reply('Hide and Seek Rules');
-    }
+     
 });
 
 // THIS  MUST  BE  THIS  WAY
