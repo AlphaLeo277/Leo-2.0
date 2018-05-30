@@ -27,6 +27,9 @@ client.on('message', message => {
     if (message.content === 'Boosie') {
     	message.reply('No its Leo 2.0');
   	}
+    if (message.content === 'Hello') {
+    	message.reply('Hello your Highness!);
+  	}
     
 });
 
