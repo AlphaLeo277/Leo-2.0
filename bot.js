@@ -12,7 +12,11 @@ client.on('message', message => {
     let msg = message.content.toUpperCase();
     let sender = message.author;
     
-    if (message.content === 'PING') {
+    if (message.content === prefix + 'PING') {
+        message.reply('Pong');
+    }
+    
+    if (message.content === 'Ping') {
     	message.reply('Pong!');
   	}
     if (message.content === 'Alex') {
