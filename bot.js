@@ -39,7 +39,7 @@ client.on('message', message => {
   	}
      if (message.content === 'Hide and seek rules') {
     	message.reply('Hide and Seek Rules');
-    
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
