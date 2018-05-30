@@ -15,6 +15,12 @@ client.on('message', message => {
     if (message.content === 'Leo') {
     	message.reply('Leo is your Senpai');
   	}
+    if (message.content === 'Marco') {
+    	message.reply('Polo!');
+  	}
+    if (message.content === 'Nights') {
+    	message.reply('Good night :)');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
