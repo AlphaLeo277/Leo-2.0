@@ -1,21 +1,11 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const prefix = '/';
-
 client.on('ready', () => {
     console.log('I am ready!');
 });
 
 client.on('message', message => {
-    
-    let message.content = message.content.toUpperCase();
-    let sender = message.author;
-    
-    if (message.content === prefix + 'ping') {
-        message.reply('Pong');
-    }
-    
     if (message.content === 'Ping') {
     	message.reply('Pong!');
   	}
