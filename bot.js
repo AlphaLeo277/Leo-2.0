@@ -30,6 +30,9 @@ client.on('message', message => {
     if (message.content === 'Hello') {
     	message.reply('Hello your Highness!');
   	}
+    if (message.content === 'Oops') {
+    	message.reply('XD you made a mistake');
+  	}
     
 });
 
