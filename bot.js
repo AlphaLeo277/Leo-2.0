@@ -45,6 +45,15 @@ client.on('message', message => {
       if (message.content === 'K') {
     	message.reply('Its not "K" its "Ok"');
   	}
+     if (message.content === 'K.') {
+    	message.reply('Rude much?');
+  	}
+     if (message.content === 'k') {
+    	message.reply('Why not just put an "O" infront of the "K"?');
+  	}
+    if (message.content === 'k.') {
+    	message.reply('Yall needa learn some respecct');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
