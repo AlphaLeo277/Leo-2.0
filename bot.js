@@ -9,8 +9,8 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
   	}
-  if(message.content == 'hello') {
-    message.channel.sendmessage('Hi, there!');
+  if(message.content == 'alex') {
+    message.channel.sendmessage('is Jesus');
   }
 });
 
