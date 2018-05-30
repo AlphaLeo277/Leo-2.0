@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     
-    let msg = message.content.toUpperCase();
+    let message.content = message.content.toUpperCase();
     let sender = message.author;
     
     if (message.content === prefix + 'PING') {
