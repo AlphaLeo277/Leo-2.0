@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const PREFIX = '!';
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -37,14 +36,7 @@ client.on('message', message => {
     if (message.content === 'Thank you Leo 2.0') {
     	message.reply('You are welcome ^v^');
   	}
-    if (!message.content.startswith(PREFIX)) return;
-    var args = message.content.substring(PREFIX.length).split(' ');
-    switch (args[0]) {
-        case 'ping':
-            message.reply('pong!');
-            break;
-    }
-    
+   
 });
 
 // THIS  MUST  BE  THIS  WAY
