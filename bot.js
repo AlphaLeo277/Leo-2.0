@@ -38,7 +38,7 @@ client.on('message', message => {
     	message.reply('You are welcome ^v^');
   	}
      if (message.content === 'Hide and seek rules') {
-    	message.reply('Hide and Seek Rules');
+    	message.reply('Hide and Seek Rules', 'no squidbagging');
     }
 });
 
