@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-     client.user.setGame("use !help");
+     client.user.setActivity("use !help");
 });
 
 client.on('message', message => {  
