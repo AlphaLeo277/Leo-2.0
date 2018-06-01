@@ -1,13 +1,13 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const bot = new Discord.Client();
 
 
-client.on('ready', () => {
+bot.on('ready', () => {
     console.log('I am ready!');
-    client.user.setGame('game here !')
+    bot.user.setPresence({ status: 'online', game: { name: 'GAME HERE' } });
 });
 
-client.on('message', message => {  
+bot.on('message', message => {  
     
     if (message.content === 'Ping') {
     	message.reply('Pong!');
@@ -57,4 +57,4 @@ client.on('message', message => {
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
+bot.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
