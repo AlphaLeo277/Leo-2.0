@@ -2,9 +2,9 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 
-client.on('ready', () => {
+bot.on('ready', () => {
     console.log('I am ready!');
-    bot.user.setPresence({game: {name: 'Splatoon 2 Octo Expansion', type 0}});
+    bot.user.setGame('Splatoon 2 Octo Expansion');
 });
 
 bot.on('message', message => {  
