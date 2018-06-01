@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-    client.user.setActivity("Splatoon 2: Octo Expansion");
+    client.user.setGame("Splatoon 2: Octo Expansion");
 });
 
 client.on('message', message => {  
