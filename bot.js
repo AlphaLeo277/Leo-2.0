@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-     client.user.setStatus('online', 'Made by KwinkyWolf') 
+     client.user.setGame("use !help");
 });
 
 client.on('message', message => {  
