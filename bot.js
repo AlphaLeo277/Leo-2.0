@@ -49,10 +49,10 @@ client.on('message', message => {
     	message.reply('Rude much?');
   	}
      if (message.content === 'k') {
-    	message.reply('Why not just put an "O" infront of the "K"?');
+    	message.reply('How hard is it to just say "Ok"?');
   	}
     if (message.content === 'k.') {
-    	message.reply('Yall needa learn some respecct');
+    	message.reply('Can we not do this?');
   	}
 });
 
