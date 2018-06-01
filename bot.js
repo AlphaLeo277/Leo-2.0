@@ -4,9 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-     client.user.setPresence({ game: { name: 'with discord.js' }, status: 'online' })
-    .then(console.log)
-  .catch(console.error);
+    client.user.setActivity("Game"); 
 });
 
 client.on('message', message => {  
