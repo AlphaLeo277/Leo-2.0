@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const newUsers = []; 
 
 client.on('ready', () => {
     console.log('I am ready!');
+    client.user.setPresence({game: {name: 'Splatoon 2 Octo Expansion', type 0}});
 });
 
 client.on('message', message => {  
