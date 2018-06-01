@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 
 bot.on('ready', () => {
     console.log('I am ready!');
-    bot.user.setGame('Splatoon 2 Octo Expansion');
+    bot.user.setPresence({game: {name: 'hello', type 0}});
 });
 
 bot.on('message', message => {  
