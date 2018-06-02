@@ -54,6 +54,9 @@ client.on('message', message => {
     if (message.content === 'k.') {
     	message.reply('Can we not do this?');
   	}
+     if (message.content === 'PENIS!') {
+    	message.reply('Penis!!');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
