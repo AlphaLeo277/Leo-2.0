@@ -13,7 +13,7 @@ client.on('message', message => {
     	message.reply('Pong!');
   	}
     if (message.content === 'Alex') {
-    	message.reply('Alex is Jesus');
+    	message.reply('Alex is Da Queen');
   	}
     if (message.content === 'Leo') {
     	message.reply('Leo is your Senpai');
